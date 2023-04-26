@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(243, 192, 182);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-shadow: 0.2rem 0.2rem 0.5rem #8888887a;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+img {
+  width: 20rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 2rem rgba(83, 83, 83, 0.477);
+}
+
+.flex {
+  display: flex;
+}
+
+.contents {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#fave {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
